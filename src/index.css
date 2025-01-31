@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* style for ProductSearch component */
+.parent_container{
+  width: 100vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.search_box{
+  outline: none;
+  margin: 30px 0px 30px 0px;
+  border: 0.5px solid black;
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+
+}
+
+.result_container{
+  width: 90vw;
+  height: auto;
+  overflow-y: scroll;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+.cardBox{
+  display: flex;
+  width: 60vw;
+  height: 200px;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
