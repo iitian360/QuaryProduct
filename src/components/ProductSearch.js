@@ -12,6 +12,8 @@ export default function ProductSearch() {
       return;
     }
 
+    // 
+
     const fetchProducts = async () => {
       setLoading(true);
       try {
